@@ -1,13 +1,14 @@
 header{
     display: flex;
-    position: sticky;
+
     top: 5px;
     justify-content: space-between;
     justify-items: center;
     background-color: #ffffff;
+    background-color: #fff;
     border-radius: 10px;
     max-height: 100px;
-    filter: drop-shadow(0 0 00.35em rgba(0, 0, 0, 0.548))
+    filter: drop-shadow(0 0 00.35em rgba(0, 0, 0, 0.548));
     
 }
 
@@ -97,7 +98,13 @@ p{
     font-family: "Red Hat Text", sans-serif;
 }
 
-.banner:hover{
-    transform: scale(1.04);
-    box-shadow: 10px 10px 20px rgba(255, 0, 0, 0.303), -10px -10px 20px rgba(136, 255, 0, 0.275)
+
+
+video{
+    width: 1000px;
+    justify-self: center;
+    margin-left: 470px;
+    filter: drop-shadow(0 0 0.20em rgba(0, 0, 0, 0.483));
+    border-radius: 20px;
+    margin-top: 40px;
 }
